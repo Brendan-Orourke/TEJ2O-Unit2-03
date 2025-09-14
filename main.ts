@@ -5,20 +5,15 @@
  * This program calculates area and perimeter
  */
 
-let length = 5
-let width = 3
-
-// Calculate area
-let area = length * width
-
-// Calculate perimeter
-let perimeter = 2 * (length + width)
-
-// Show area on LED screen
-basic.showString("A:")
-basic.showNumber(area)
-basic.pause(1000)
-
-// Show perimeter on LED screen
-basic.showString("P:")
-basic.showNumber(perimeter)
+basic.forever(function () {
+    let length = 5
+    let width = 3
+    let area = length * width
+    let perimeter = 2 * (length + width)
+    basic.showString("A=")
+    basic.showNumber(area)
+    basic.pause(500)
+    basic.showString("P=")
+    basic.showNumber(perimeter)
+    basic.pause(500)
+})
