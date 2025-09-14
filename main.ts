@@ -1,11 +1,11 @@
-/* Copyright (c) 2020 MTHS All rights reserved
+/* Copyright (c) 2025 MTHS All rights reserved
  *
  * Created by: Brendan O'Rourke
  * Created on: Sep 2025
  * This program Calculated Area and Perimeter
 */
 
-// Declare variables only once
+
 let length = 5  // in cm
 let width = 3   // in cm
 
