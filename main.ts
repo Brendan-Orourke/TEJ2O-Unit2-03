@@ -5,14 +5,17 @@
  * This program calculates area and perimeter
  */
 
-let length = 5;  // in cm
-let width = 3;   // in cm
+let length = 5
+let width = 3
 
-let area = length * width;
-let perimeter = 2 * (length + width);
+// Calculate area and perimeter
+let area = length * width
+let perimeter = 2 * (length + width)
 
-basic.showString("A:");
-basic.showNumber(area);
+// Display the results on the LED screen
+basic.showString("A:")
+basic.showNumber(area)
+basic.pause(1000)
 
-basic.showString("P:");
-basic.showNumber(perimeter);;
+basic.showString("P:")
+basic.showNumber(perimeter);
