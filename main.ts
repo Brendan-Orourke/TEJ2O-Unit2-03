@@ -5,15 +5,15 @@
  * This program calculates area and perimeter
  */
 
+
 basic.forever(function () {
-    let length = 5
-    let width = 3
-    let area = length * width
-    let perimeter = 2 * (length + width)
+    let const length  = 5
+    let const width = 3
+    let const area = length * width
+    let const perimeter = 2 * (length + width)
     basic.showString("A=")
     basic.showNumber(area)
     basic.pause(500)
     basic.showString("P=")
     basic.showNumber(perimeter)
     basic.pause(500)
-})
