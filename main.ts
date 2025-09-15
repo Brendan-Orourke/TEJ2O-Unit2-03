@@ -6,14 +6,14 @@
  */
 
 
-basic.forever(function () {
-    let const length  = 5
-    let const width = 3
-    let const area = length * width
-    let const perimeter = 2 * (length + width)
+basic.forever (function (){
+     const length  = 5
+     const width = 3
+     const area = length * width
+     const perimeter = 2 * (length + width)
     basic.showString("A=")
     basic.showNumber(area)
     basic.pause(500)
     basic.showString("P=")
     basic.showNumber(perimeter)
-    basic.pause(500)
+    basic.pause(500) })
